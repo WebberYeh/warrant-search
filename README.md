@@ -14,7 +14,7 @@
 
 ## 使用說明
 **`此工具在盤中也可執行`**
-**`因上傳 ipynb 檔後，上傳前的輸出結果無法顯示，在此 repo 中有`result1.png ~ result4.png`，為執行結果之截圖可供參考`**
+**`因上傳 ipynb 檔後，上傳前的輸出結果無法顯示，在此 repo 中有 result1.png ~ result4.png，為執行結果之截圖可供參考`**
 1. Warrant_Search.ipynb 中有4個 cell，打開此ipynb檔後可直接執行第一個cell，可得到下列結果
 ![df](docs/cell1-1.png)
 
