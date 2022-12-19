@@ -90,7 +90,7 @@ class warrant():
 
 	def select_WARRANTID(self, Warrant_List):
 		WARRANT_ID = widgets.Combobox(
-	        placeholder='Select or Insert WarrantID',
+	        placeholder='Select or Insert Warrant ID',
 	        options=Warrant_List, #dtype: tuple
 	        description='選擇權證:',
 	        ensure_option=True,
