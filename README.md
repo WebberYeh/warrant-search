@@ -8,7 +8,7 @@
 
 * warrant_search.py
 
-## 標的清單來源
+## 標的清單資料
 
 * 上市上櫃權證標的_crawler.ipynb (透過此檔取得上市上櫃有發行權證標的清單(csv))
 
