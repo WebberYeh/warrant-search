@@ -4,15 +4,15 @@
 
 * Warrant_Search.ipynb
 
-### 主程式中函式引用
+## 主程式中函式引用
 
 * warrant_search.py
 
-### 標的清單來源
+## 標的清單來源
 
 * 上市上櫃權證標的_crawler.ipynb (透過此檔取得上市上櫃有發行權證標的清單(csv))
 
-### 使用說明
+## 使用說明
 1. Warrant_Search.ipynb 中有4個 cell，打開此ipynb檔後可直接執行第一個cell，可得到下列結果
 ![df](docs/cell1-1.png)
 
