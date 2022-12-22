@@ -179,7 +179,7 @@ class warrant():
 		dfs = dff.sort_values(by=['d'])
 		dfs.index = range(len(dfs))
 
-		#create a new dataframe to assign value to represent columns
+		#create a new dataframe to assign value to corresponding columns
 		buyprice = [dfs.loc[0]["value"],dfs.loc[2]["value"],dfs.loc[4]["value"],dfs.loc[6]["value"],dfs.loc[8]["value"]]
 		sellprice = [dfs.loc[1]["value"],dfs.loc[3]["value"],dfs.loc[5]["value"],dfs.loc[7]["value"],dfs.loc[9]["value"]]
 		buyamount = [dfs.loc[10]["value"],dfs.loc[12]["value"],dfs.loc[14]["value"],dfs.loc[16]["value"],dfs.loc[18]["value"]]
@@ -191,7 +191,7 @@ class warrant():
 		df_fivetick = df_fivetick.replace({'0':np.nan, 0:np.nan})
 		df_fivetick = df_fivetick.replace(-999999999.00,((df_fivetick["賣價"].loc[1]) if (df_fivetick["賣價"].loc[0]) == -999999999.00 else (df_fivetick["買價"].loc[1])), regex=True)
 
-		#display float values to only 2 decimal places
+		#display float values with only 2 decimal places
 		f = dict.fromkeys(df_fivetick.select_dtypes('float').columns, "{:.2f}")
 
 		#color buy/sell price value to (red if >flat price; green if <flat price; black if =flat price; and color background to green if =0.01)
