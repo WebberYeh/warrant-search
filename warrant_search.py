@@ -1,11 +1,9 @@
 import requests
 import pandas as pd
-import sys
 import numpy as np
 import ipywidgets as widgets
 from ipywidgets import interact, interactive, fixed, interact_manual
 from IPython.display import display
-import matplotlib.pyplot as plt
 import matplotlib.pyplot as plt
 
 class warrant():
